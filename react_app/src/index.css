@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+li {
+  list-style-type: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+ul.no-bullets {
+  list-style-type: none;
+}
+
+.button-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.button-col {
+  flex-basis: 33.33%;
+  margin-bottom: 10px;
+}
+
+.students-container {
+  white-space: nowrap; /* Prevent line wrapping */
+}
+
+.students-column {
+  display: inline-block;
+  vertical-align: top; /* Align columns to the top */
+  width: 18%; /* Adjust the width as necessary */
+  margin-right: 1%; /* Add some spacing between columns */
+}
+
+.students-column:last-child {
+  margin-right: 0; /* Remove spacing from the last column */
+}
+
+.button-row {
+  display: flex !important;
+  flex-wrap: wrap !important;
+}
+
+
+
+@import '~bootstrap/dist/css/bootstrap.min.css';
